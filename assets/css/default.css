@@ -1,0 +1,52 @@
+/**
+* Rights module default style sheet file.
+* You may override this style sheet by setting the 'cssFile'
+* in the module's configuration.
+*
+* @author Tonin De Rosso Bolzan <admin@tonybolzan.com>
+* @copyright Copyright &copy; 2012 tonybolzan.com
+* @version 1.0
+* @since 0.5
+*/
+
+/**
+* Default style.
+*/
+
+/**
+* Grid view and table styles.
+*/
+
+table tr.controller-row td,
+table tr.controller-row :hover td,
+table tr.controller-row a
+{
+    cursor: pointer;
+    color: white;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.2);
+    background-color: #08C !important;
+}
+
+table tr.exists {
+    color: #aaa;
+    cursor: default;
+}
+
+table tr.controller-row.exists td,
+table tr.controller-row.exists :hover td,
+table tr.controller-row.exists a
+{
+    cursor: default;
+    color: white;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.2);
+    background-color: #598CA6 !important;
+}
+
+table .revoke-link  {
+    color: #C00 !important;
+    cursor: pointer !important;
+}
+table .controller-row .revoke-link {
+    color: #FBB !important;
+    cursor: pointer !important;
+}
